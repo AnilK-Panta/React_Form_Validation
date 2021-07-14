@@ -27,19 +27,19 @@ const App=()=>{
                 <div className="registrationMainSec">
                     <div className="registrationName">
                         <label htmlFor="name">Name</label><br></br>
-                        <input type="text" id="name" name="name" placeholder="Claude Powell" {...register('Name', { required: true })} />
+                        <input type="text" id="name" name="name" placeholder="Anil K. Panta" {...register('Name', { required: true })} />
                         {errors.Name && <p >You must enter your name</p>}
                     </div>
                     <div className="registrationEmail">
                         <label htmlFor="email">Email</label><br></br>
-                        <input type="email" id="email" name="email" placeholder="claude@example.com" {...register('Email', { required: true })} />
+                        <input type="email" id="email" name="email" placeholder="anil@example.com" {...register('Email', { required: true })} />
                         {errors.Email && <p>You must enter your email</p>}
                         
                         
                     </div>
                     <div className="registrationUserName">
                         <label htmlFor="username">User Name</label><br></br>
-                        <input type="text" id="username" name="username" placeholder="claude" {...register('UserName', { required: true })} />
+                        <input type="text" id="username" name="username" placeholder="akpanta" {...register('UserName', { required: true })} />
                         {errors.UserName && <p>You must enter your username</p>}
 
                     </div>
